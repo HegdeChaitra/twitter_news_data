@@ -1,0 +1,4 @@
+pandas
+numpy
+git+https://github.com/yunusemrecatalcam/twint.git@twitter_legacy2
+
