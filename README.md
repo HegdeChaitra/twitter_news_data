@@ -10,5 +10,5 @@ Tweets scraped from twitter for set of news twitter handles. The corresponding n
 Script to scrape NBCNews articles is made available. Run `python scrape_nbcnews.py`
 
 ## Output:
-Tweets and corresponding article scraped for set of twitter handles has been made available under /data
+Tweets and corresponding article scraped for set of twitter handles has been made available under [/data](https://github.com/HegdeChaitra/twitter_news_data/tree/master/data)
 
