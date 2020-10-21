@@ -45,7 +45,6 @@ save_is_parsed = []
 save_author = []
 save_link = []
 
-
 for l in tqdm(list(df['link'])):
 
     try:
@@ -73,7 +72,6 @@ for l in tqdm(list(df['link'])):
         save_author.append(None)
         save_link.append(None)
 
-
 df['article_text'] = save_text
 df['article_meta'] = save_meta
 df['article_title'] = save_title
@@ -83,3 +81,4 @@ df['author'] = save_author
 df['full_link'] = save_link
 
 df.to_json("./nbcnews_success_articles.json")
+
