@@ -21,8 +21,6 @@ def get_tweet(config):
 
 for usr in np.unique(users_list):
 
-    if usr in ['ABC', 'CBSNews']:
-        continue
     print(usr)
     c = twint.Config()
     c.Search = "from:@"+usr
@@ -53,4 +51,5 @@ for usr in np.unique(users_list):
     df.to_csv("./{}_success.csv".format(usr), index=False)
     print(df.shape[0])
     print()
+
 
