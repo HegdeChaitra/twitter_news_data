@@ -6,5 +6,9 @@ Tweets scraped from twitter for set of news twitter handles. The corresponding n
 1. Install Twint using `pip3 install --user --upgrade git+https://github.com/yunusemrecatalcam/twint.git@twitter_legacy2`
 2. run script as `python get_tweets.py`
 
+## How to scrape articles:
+Script to scrape NBCNews articles is made available. Run `python scrape_nbcnews.py`
+
 ## Output:
 Tweets and corresponding article scraped for set of twitter handles has been made available under /data
+
