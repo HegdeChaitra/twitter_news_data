@@ -5,6 +5,9 @@ import numpy as np
 from datetime import datetime
 from datetime import timedelta
 
+# install twint using `pip3 install --user --upgrade git+https://github.com/yunusemrecatalcam/twint.git@twitter_legacy2`
+
+
 users_list = ["CNN", "nytimes", "theatlantic", "newyorker", "HuffingtonPost", "FoxNews", "ABC",
              "washingtonpost", "TIME", "Newsweek", "USATODAY", "VOANews", "WSJ", "NOLAnews",
              "CBSNews", "Suntimes", "TB_Times", "HoustonChron", "latimes", "phillydotcom", "njdotcom",
